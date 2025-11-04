@@ -26,12 +26,13 @@ const About = () => {
               whileInView="visible"
               className="leading-relaxed"
             >
-              Far much that one rank beheld bluebird after outside ignobly
+              {/* Far much that one rank beheld bluebird after outside ignobly
               allegedly more when oh arrogantly vehement irresistibly fussy
               penguin insect additionally wow absolutely crud meretriciously
               hastily dalmatian a glowered inset one echidna cassowary some
               parrot and much as goodness some froze the sullen much connected
-              bat.
+              bat. */}
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </motion.p>
             <motion.p
               variants={SlideUp(0.5)}
@@ -39,10 +40,12 @@ const About = () => {
               whileInView="visible"
               className="text-lg leading-relaxed"
             >
-              Repeatedly dreamed alas opossum but dramatically despite
+              {/* Repeatedly dreamed alas opossum but dramatically despite
               expeditiously that jeepers loosely yikes that as or eel underneath
               kept and slept compactly far purred sure abidingly up above
-              fitting to strident wiped set waywardly.
+              fitting to strident wiped set waywardly. */}
+
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </motion.p>
           </div>
         </div>

@@ -8,7 +8,7 @@ import back_arrow_icon from "./back_arrow_icon.svg";
 import marketing from "./bullhorn.png";
 import programming from "./code.png";
 import company_icon from "./company.webp";
-import counter_image from "./counter.webp";
+import counter_image from "./image.png";
 import cross_icon from "./cross_icon.svg";
 import cyber_security from "./cyber-security.png";
 import delete_icon from "./delete_icon.svg";
@@ -46,6 +46,8 @@ import work_1 from "./work-1.webp";
 import work_2 from "./work-2.webp";
 import work_3 from "./work-3.webp";
 import upload_resume from "./upload-file.png";
+import purvaPhoto from "./Purva.jpg";
+import mephoto from "./me.jpg"
 
 export const assets = {
   upload_resume,
@@ -91,34 +93,35 @@ export const assets = {
   work_3,
 };
 
+
 export const categoryIcon = [
   {
     icon: programming,
-    name: "Programming",
+    name: "Photography",
   },
   {
     icon: data_scince,
-    name: "Data Science",
+    name: "Videography",
   },
   {
     icon: designing,
-    name: "Designing",
+    name: "Content Creators",
   },
   {
     icon: network,
-    name: "Networking",
+    name: "Graphic Designing",
   },
   {
     icon: management,
-    name: "Management",
+    name: "Bloggers",
   },
   {
     icon: marketing,
-    name: "Marketing",
+    name: "Social Media Manager",
   },
   {
     icon: cyber_security,
-    name: "Cybersecurity",
+    name: "Digital Marketer",
   },
 ];
 
@@ -162,56 +165,56 @@ export const testimonials = [
     title: "An Incredible Experience!",
     description:
       "Using this platform made my job search so much easier. The recommendations were spot on and the user experience.",
-    image: "https://placehold.co/200x200/2563eb/white?text=JL", // Jessica Lee initials
-    name: "Jessica Lee",
+    image: "", 
+    name: "Sejal Patil",
     position: "Frontend Developer",
   },
   {
     title: "Highly Recommended",
     description:
       "I found the perfect job within a week. The interface is clean and the support team is super responsive. Couldn't ask for more!",
-    image: "https://randomuser.me/api/portraits/men/32.jpg", // Daniel Thompson photo
-    name: "Daniel Thompson",
+    image: mephoto, 
+    name: "Ansari Saima",
     position: "Digital Marketing Manager",
   },
   {
     title: "Seamless and Efficient",
     description:
       "From creating a profile to applying for jobs, everything was quick and easy. The listings are well curated too.",
-    image: "https://placehold.co/200x200/2563eb/white?text=SA", // Sara Ahmed initials
-    name: "Sara Ahmed",
+    image: purvaPhoto, 
+    name: "Purva Gawade",
     position: "UI/UX Designer",
   },
   {
     title: "A Game-Changer for Job Seekers",
     description:
       "I've used many job portals before, but this one stands out with its simplicity and effectiveness. Found a great opportunity !",
-    image: "https://randomuser.me/api/portraits/men/75.jpg", // Kevin Brooks photo
-    name: "Kevin Brooks",
+    image: "https://randomuser.me/api/portraits/men/75.jpg", 
+    name: "Samiksha Khedekar",
     position: "Software Engineer",
   },
 ];
 
 export const JobCategories = [
-  "Programming",
-  "Data Science",
+  "Videography",
+  "Photography",
   "Designing",
   "Networking",
-  "Management",
+  "Content Creator",
   "Marketing",
-  "Cybersecurity",
+  "Social Media Manager",
 ];
 
 export const JobLocations = [
-  "Dhaka",
-  "Chattogram",
-  "Khulna",
-  "Rajshahi",
-  "Barishal",
-  "Sylhet",
+  "Mumbai",
+  "Pune",
+  "Nagpur",
+  "Aurangabad",
+  "Chandrapur",
+  "Ratnagiri",
   "Rangpur",
-  "Mymensingh",
-  "Remote",
+  "Sangli",
+  "Nashik",
 ];
 
 // Sample data for Manage Jobs Page
@@ -227,21 +230,21 @@ export const manageJobsData = [
     _id: 2,
     title: "Data Scientist",
     date: 1729102298497,
-    location: "San Francisco",
+    location: "Mumbai",
     applicants: 15,
   },
   {
     _id: 3,
     title: "Marketing Manager",
     date: 1729102298497,
-    location: "London",
+    location: "Pune",
     applicants: 2,
   },
   {
     _id: 4,
     title: "UI/UX Designer",
     date: 1729102298497,
-    location: "Dubai",
+    location: "Kolhapur",
     applicants: 25,
   },
 ];
@@ -259,7 +262,7 @@ export const jobsApplied = [
   {
     company: "Meta",
     title: "Data Scientist",
-    location: "San Francisco",
+    location: "Mumbai",
     date: "22 Aug, 2024",
     status: "Rejected",
     logo: company_icon,
@@ -267,7 +270,7 @@ export const jobsApplied = [
   {
     company: "Google",
     title: "Marketing Manager",
-    location: "London",
+    location: "Pune",
     date: "25 Sep, 2024",
     status: "Accepted",
     logo: company_icon,
@@ -275,7 +278,7 @@ export const jobsApplied = [
   {
     company: "Qualcomm",
     title: "UI/UX Designer",
-    location: "Dubai",
+    location: "Kolhapur",
     date: "15 Oct, 2024",
     status: "Pending",
     logo: company_icon,
